@@ -65,6 +65,7 @@ public class prectica extends javax.swing.JFrame {
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         lblmensaje.setText("Hola Mundo..");
         lblmensaje2.setText("hola que hace");
+        lblmensaje3.setText("Hola Mauricio")
         
     }//GEN-LAST:event_btnactivarActionPerformed
 
