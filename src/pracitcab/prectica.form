@@ -33,6 +33,10 @@
                       <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
                       <Component id="lblmensaje" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                      <Component id="lblmensaje2" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace pref="168" max="32767" attributes="0"/>
           </Group>
@@ -45,7 +49,9 @@
               <Component id="lblmensaje" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
               <Component id="btnactivar" min="-2" pref="83" max="-2" attributes="0"/>
-              <EmptySpace pref="131" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Component id="lblmensaje2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="71" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,6 +66,11 @@
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblmensaje">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmensaje2">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>

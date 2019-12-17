@@ -15,6 +15,7 @@ public class prectica extends javax.swing.JFrame {
 
         btnactivar = new javax.swing.JButton();
         lblmensaje = new javax.swing.JLabel();
+        lblmensaje2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -27,6 +28,8 @@ public class prectica extends javax.swing.JFrame {
 
         lblmensaje.setText("jLabel1");
 
+        lblmensaje2.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -38,7 +41,10 @@ public class prectica extends javax.swing.JFrame {
                         .addComponent(btnactivar, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(136, 136, 136)
-                        .addComponent(lblmensaje)))
+                        .addComponent(lblmensaje))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(134, 134, 134)
+                        .addComponent(lblmensaje2)))
                 .addContainerGap(168, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -48,7 +54,9 @@ public class prectica extends javax.swing.JFrame {
                 .addComponent(lblmensaje)
                 .addGap(49, 49, 49)
                 .addComponent(btnactivar, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(131, Short.MAX_VALUE))
+                .addGap(45, 45, 45)
+                .addComponent(lblmensaje2)
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
         pack();
@@ -56,6 +64,7 @@ public class prectica extends javax.swing.JFrame {
 
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         lblmensaje.setText("Hola Mundo..");
+        lblmensaje2.setText("hola que hace");
         
     }//GEN-LAST:event_btnactivarActionPerformed
 
@@ -95,5 +104,6 @@ public class prectica extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnactivar;
     private javax.swing.JLabel lblmensaje;
+    private javax.swing.JLabel lblmensaje2;
     // End of variables declaration//GEN-END:variables
 }
